@@ -1,0 +1,19 @@
+.navbar {
+    background-color: #fff !important;
+    color: black !important;
+}
+
+.navbar svg {
+    padding-right: 20px;
+}
+
+.navLinks {
+    padding-right: 20px;
+    color: black !important;
+}
+
+.nameText {
+    color: #ff8710;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+}

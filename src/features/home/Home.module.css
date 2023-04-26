@@ -1,0 +1,89 @@
+.home {
+    padding: 20px 60px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.header h3 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.header p {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.actionBar h4 {
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(40,44,63,.1);
+    margin-bottom: 40px;
+}
+
+.main {
+    padding: 50px 0px;
+    margin: 0px 50px;
+}
+.loader {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchContainer {
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.inputContainer {
+    width: 400px;
+    height: 48px;
+    padding: 0px 15px;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(40,44,63,.2);
+    border: 1px solid rgba(40,44,63,.3);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.inputContainer input {
+    font-size: 1.15rem;
+    line-height: 24px;
+    width: 100%;
+    height: 100%;
+    outline: 0;
+    border: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: inherit;
+    color: inherit;
+    background: inherit;
+    vertical-align: middle;
+    font-weight: 500;
+}
+
+.inputContainer svg {
+    color: #686b78;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .home {
+        padding: 20px;
+    }
+
+    .main {
+        padding: 20px 0px;
+        margin: 0px 20px;
+    }
+  }

@@ -1,0 +1,93 @@
+.instamart {
+    padding: 20px 60px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.header h3 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.main {
+    padding: 50px;
+}
+
+.memberName {
+    color: #f5851f;
+}
+
+.role {
+    font-weight: 600 !important;
+    margin-bottom: 5px;
+}
+
+.about {
+    font-size: 13px;
+}
+
+.aboutInstaImg {
+    max-width: 100%;
+}
+
+.linkedInUrl {
+    font-weight: 700 !important;
+    margin-left: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.careerGridItem {
+    padding: 15px;
+}
+
+.careerContent {
+    padding: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    border-radius: 12px;
+}
+
+.careerContent:hover {
+    background: #ff8710;
+}
+
+.careerContent::after {
+    content: "";
+    height: 70px;
+    background: #fff;
+    width: 1px;
+    position: absolute;
+    right: -10px;
+    top: 10px;
+}
+
+.careerContent h4 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.careerContent h5 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.careerGridContainer {
+    background-color: #94499c !important;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .instamart {
+        padding: 20px;
+    }
+
+    .main {
+        padding: 20px;
+    }
+  }
